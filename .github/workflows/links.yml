@@ -18,5 +18,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/check_links
-      - name: awesome-lint
-        run: npx --yes awesome-lint

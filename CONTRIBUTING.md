@@ -25,7 +25,7 @@ Add an entry only when all of these hold:
 
 1. Put one bullet in the matching section, in alphabetical order by the link text, using `- [Name](https://example.com) - What it is, and the tradeoff.`
 2. Start the description with a capital letter and end it with a period.
-3. Run `python3 scripts/check_links` and `npx awesome-lint`.
+3. Run `python3 scripts/check_links` and `npx awesome-lint`. awesome-lint 2.3.0 also reports missing GitHub topics (`awesome`, `awesome-list`) and a license GitHub has not detected on the default branch. Those are repository settings. Do not treat them as README failures.
 
 ## License
 
